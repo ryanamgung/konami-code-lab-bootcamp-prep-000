@@ -17,6 +17,8 @@ function init() {
     let index = 0;
 
     if (key === codes[index]) {
+      console.log(key)
+      console.log(index)
       index++;
       if (index === codes.length) {
         window.alert("Congratulations, you're a cheater.");
