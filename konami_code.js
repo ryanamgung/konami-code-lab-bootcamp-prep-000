@@ -22,7 +22,7 @@ function init() {
       console.log(index)
       index++;
       if (index === codes.length) {
-        window.alert("Congratulations, you're a cheater.");
+        alert("Congratulations, you're a cheater.");
        index = 0;
       }
     } else {
